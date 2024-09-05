@@ -1,0 +1,12 @@
+body{
+    background-color: lightblue;
+    header{
+        background-color: lightcoral;
+    }
+    main{
+        background-color: lightgreen;
+    }
+    footer{
+        background-color: mediumslateblue;
+    }
+}
