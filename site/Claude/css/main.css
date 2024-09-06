@@ -2,13 +2,25 @@ body{
     background-color: lightblue;
     margin: 0px;
     header{
-        background-color: lightcoral;
+        img{
+            width: 20vw;
+            height: 20vw;
+        }
         margin: 10px;
+        div{
+            padding: 5px;
+            background-color: lightcoral;
+            width: 100vw;
+        }
     }
     main{
         background-color: lightgreen;
         margin: 10px;
         width: fit-content;
+        img{
+            width: 15vw;
+            height: 20vw;
+        }
         form{
             legend{
                 font-weight: bold;
