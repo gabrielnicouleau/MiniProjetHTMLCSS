@@ -4,23 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/main.css">
-    <title>Document</title>
+    <title>Contact</title>
 </head>
 <body>
     <header>
         <img src="" alt="">
         <h1></h1>
         <nav>
-            <a href="index.html">Accueil</a>
-            <a href="html/html.html">HTML</a>
-            <a href="html/css.html">CSS</a>
-            <a href="html/js.html">JS</a>
-            <a href="html/api.html">API</a>
-            <a href="html/contact.html">Contact</a>
+            <a href="../index.html">Accueil</a>
+            <a href="html.html">HTML</a>
+            <a href="css.html">CSS</a>
+            <a href="js.html">JS</a>
+            <a href="api.html">API</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
     <main>
         <form action="" method="post">
+        <fieldset>
+            <legend>Vous voulez nous contacter ?</legend>
+            <div>
+                <label for="prenom">Prénom:</label>
+                <input type="text" name="prenom" placeholder="Entrez votre prénom" id="prenom" minlength="2" maxlength="20">
+            </div>
+            <div>
+                <label for="n<om">Nom:</label>
+                <input type="text" name="nom" placeholder="Entrez votre nom" id="nom" minlength="2" maxlength="20">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="text" name="email" placeholder="Entrez votre email" id="email">
+            </div>
+            <div>
+                <label for="numero">Numéro:</label>
+                <input type="text" name="numero" placeholder="Entrez votre numéro" id="numero">
+            </div>
+            <div>
+                <label for="commentaire">Laissez un commentaire:</label><br>
+                <textarea name="commentaire" id="commentaire" placeholder="Ecrivez votre message dans cette boite" cols="40" rows="5"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="Reset">
+            </div>
         </form>
     </main>
     <footer>

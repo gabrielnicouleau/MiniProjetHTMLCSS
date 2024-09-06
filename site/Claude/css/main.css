@@ -1,12 +1,23 @@
 body{
     background-color: lightblue;
+    margin: 0px;
     header{
         background-color: lightcoral;
+        margin: 10px;
     }
     main{
         background-color: lightgreen;
+        margin: 10px;
+        width: fit-content;
+        form{
+            legend{
+                font-weight: bold;
+                font-size: large;
+            }
+        }
     }
     footer{
         background-color: mediumslateblue;
+        margin: 10px;
     }
 }
